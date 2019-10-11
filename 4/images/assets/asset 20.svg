@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-721.000000, -991.000000)" fill-rule="nonzero" fill="#252525">
+            <g id="Follow-Us" transform="translate(0.000000, 943.000000)">
+                <g id="Icons" transform="translate(547.000000, 48.000000)">
+                    <path d="M174,0 L174,42 L216,42 L216,0 L174,0 Z M188,33.25 L182.75,33.25 L182.75,14 L188,14 L188,33.25 Z M185.375,11.781 C183.6845,11.781 182.3125,10.3985 182.3125,8.694 C182.3125,6.9895 183.6845,5.607 185.375,5.607 C187.0655,5.607 188.4375,6.9895 188.4375,8.694 C188.4375,10.3985 187.06725,11.781 185.375,11.781 Z M209,33.25 L203.75,33.25 L203.75,23.443 C203.75,17.549 196.75,17.99525 196.75,23.443 L196.75,33.25 L191.5,33.25 L191.5,14 L196.75,14 L196.75,17.08875 C199.19475,12.56325 209,12.229 209,21.42175 L209,33.25 Z" id="icon-linkedin"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-1312.000000, -502.000000)" fill-rule="nonzero" fill="#252525">
+            <g id="Get-In-Touch" transform="translate(0.000000, 454.000000)">
+                <path d="M1327.285,59.89025 L1324.707,57.29625 C1324.317,56.90325 1323.682,56.90325 1323.291,57.29425 L1321,59.58525 L1316,54.58525 L1318.294,52.29125 C1318.684,51.90125 1318.685,51.26825 1318.295,50.87725 L1315.715,48.29325 C1315.324,47.90225 1314.691,47.90225 1314.3,48.29325 L1312.004,50.58825 L1312,50.58525 C1312,57.76525 1317.82,63.58525 1325,63.58525 L1327.283,61.30225 C1327.673,60.91225 1327.674,60.28125 1327.285,59.89025 Z" id="Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

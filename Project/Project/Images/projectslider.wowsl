@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>24</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>projectslider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>glass_parallax</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/bootstrap/</ImageTemplate>
+            <ImageTemplateName>Bootstrap</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>E:/University Lectures/Semester 3/Web/Project/nursery.html</PublishFileName>
+            <PublishIndex>nursery.html</PublishIndex>
+            <PublishPath>E:/University Lectures/Semester 3/Web/Project</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#fff</TemplateColor>
+            <TemplateFont>Helvetica Neue</TemplateFont>
+            <TemplateName>bootstrap</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/University Lectures/Semester 3/Web/Project/Images/agriculture-environment-flower-33044.jpg</url>
+                <title>agriculture-environment-flower-33044</title>
+                <filesize>2626556</filesize>
+            </Image>
+            <Image>
+                <url>E:/University Lectures/Semester 3/Web/Project/Images/bamboo-forest-grass-54601.jpg</url>
+                <title>bamboo-forest-grass-54601</title>
+                <filesize>3699462</filesize>
+            </Image>
+            <Image>
+                <url>E:/University Lectures/Semester 3/Web/Project/Images/beautiful-blossom-botanic-1046348.jpg</url>
+                <title>beautiful-blossom-botanic-1046348</title>
+                <filesize>4511214</filesize>
+            </Image>
+            <Image>
+                <url>E:/University Lectures/Semester 3/Web/Project/Images/beauty-bloom-blue-67636.jpg</url>
+                <title>beauty-bloom-blue-67636</title>
+                <filesize>3309874</filesize>
+            </Image>
+            <Image>
+                <url>E:/University Lectures/Semester 3/Web/Project/Images/bloom-blossom-dew-56866.jpg</url>
+                <title>bloom-blossom-dew-56866</title>
+                <filesize>652087</filesize>
+            </Image>
+            <Image>
+                <url>E:/University Lectures/Semester 3/Web/Project/Images/blur-botanical-close-up-250646.jpg</url>
+                <title>blur-botanical-close-up-250646</title>
+                <filesize>1657283</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

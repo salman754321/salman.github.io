@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giss up</title>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script > 
+ 
+	$(document).ready(function () {
+		$(window).on("scroll", function() {
+  var scrollPosition = scrollY || pageYOffset;
+
+  if (scrollPosition > $("#r").position().top - $(window).height()) {
+   ani(); 
+  }
+});
+
+		function ani() {
+			$("#r").animate({
+				"width":"0%"
+			},1000);
+			$("#r").animate({
+				"width":"10%"
+			},1000);
+			$("#r").animate({"width":"20%"},1000);
+			$("#r").animate({"width":"30%"},1000);
+			
+			$("#r").animate({
+				"width":"30%"
+			});
+			$("#r").animate({
+				"width":"20%"
+			},1000);
+			$("#r").animate({
+				"width":"10%"
+			},1000);
+			$("#r").animate({
+				"width":"0%"
+			},1000);
+			
+		}
+	});
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/stle.css">
+	<link rel="stylesheet" type="text/css" href="css/card.css">
+</head>
+<body>
+<main>
+	<header>
+		
+		<div id="logo"></div>
+		<div id="dropdown">
+			<div id="dropdown-btn">
+				<a  href="#">Menu</a>
+			</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact Us</a> </li>
+				<li><a href="#">Gallery</a></li>
+			</ul>
+		</div>
+	</header>
+	<div id="container">
+		<div id="container1">
+			Your needs, our goals 
+		</div>
+		<div class="clear"></div>
+		<div id="line"></div>
+		<div id="container2"> Thank to his international experience, his values are rooted in purpose of service, and a mission to inspire positive change every day. We push beyond the boundaries of geographic science in order to improve your business through possibilities of powerful geospatial technologies.
+</div>
+	</div>
+	<div  id="tupewriter">
+
+		 <p   id="r">
+		 	Who Are We,<br>
+		 	we ate gidus<br>
+		 	what we do<br>
+		 </p>
+	</div>
+	<div id="work">
+		
+<div class="card">
+  <div class="thumbnail"><img class="left" src="images/gis_min.jpg"/></div>
+  <div class="right">
+    <h1>GIS Solution</h1>
+    <div class="author">
+      <h2>Salman</h2>
+    </div>
+    <div class="separator"></div>
+    <p>Business application development for spatial data analysis and visualization. GIS platform gives you the power of location intelligence directly in your hands. You will learn how our application improves workflows and efficiencies, and discover how big data and real-time data analytics can unlock the full potential of your business. </p>
+  </div>
+</div>
+  <div class="card">
+  <div class="thumbnail"><img class="left" src="images/develop.jpg"/></div>
+  <div class="right">
+    <h1>Development</h1>
+    <div class="author">
+      <h2>Salman</h2>
+    </div>
+    <div class="separator"></div>
+    <p>Development of Management operational software and web application integrated with GIS platforms and Databases, in order to enhance business processes and enrich customer interactions. All web application are mobile compliant with iOS, Android and Windows phone. </p>
+  </div>
+	</div>
+</div>
+</div>
+<div id="web">
+	<a href="#"><img class="webi" src="images/php_PNG28.png"></a>
+	<a href="#"><img class="webi" src="images/c0261af0418d8ad72fdd8a7f4379d7db.png"></a>
+	<a href="#"><img class="webi" src="images/index.png"></a>
+	<a href="#"><img class="webi" src="images/CSS3_logo_and_wordmark.svg.png"></a>
+	<a href="#"><img class="webi" src="images/javascript-logo-8892AEFCAC-seeklogo.com.png"></a>
+</div>
+<div id="location">
+	<h1>Where We Are ?</h1>
+	<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13238.64793235282!2d72.97581497466142!3d33.620050543952395!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df968cf40a7279%3A0xc5f472b78a8bcfc4!2sRiphah+International+University!5e0!3m2!1sen!2s!4v1546290775496" width="1240" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+</div>
+
+<footer>
+	<h1>All Right Reserve</h1>
+	<a href="Gmail.com"><img class="ico" src="images/mail-512.png"></a>
+	<a href="fb.com"><img class="ico" src="images/fb-logo.png"></a>
+	
+</footer>
+</main>
+</body>
+</html>

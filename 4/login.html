@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id="title">DropLab| Login</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/logo-grey.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script>
+        //Email Validation 
+$(document).ready(function() {
+
+    $("#signi").click(function () {
+       var c=$("#mail").val();
+       var p=$("#pas").val();
+       if(c=="")
+       {
+        $("#mail").css({
+            "border":"2px red solid"
+        });
+       }else
+       {
+        if(c=="Admin@admin.com" && p=="admin" ){
+            window.location.href = "../2/index.html";
+        }
+        else{
+            $("#mail").css({
+            "border":"2px red solid"
+        });
+        }
+       }
+
+    });
+
+
+
+$("#smail").blur(function () {
+    
+
+    var x=$("#smail").val();
+    if(x != 0)
+        {
+            if(isValidEmailAddress(x))
+            {
+                
+            } else {
+                $("#smail").val("");
+                $("#smail").css({
+                    "border":"none"
+                });
+                }  
+
+}});
+
+
+    //cloose
+    $("#mail").keyup(function(){
+
+        var email = $("#mail").val();
+
+        if(email != 0)
+        {
+            if(isValidEmailAddress(email))
+            {
+                $("#mail").css({
+                    "border": "1px solid #00eb7f" });
+            } else {
+                $("#mail").css({
+                   "border":"1px solid #ee4d45"
+                });
+            }
+        } else {
+            $("#mail").css({
+                 "border":"1px solid #ee4d45"
+            });         
+        }
+
+    });
+
+});
+
+$(document).ready(function() {
+
+    $("#smail").keyup(function(){
+
+        var email = $("#smail").val();
+
+        if(email != 0)
+        {
+            if(isValidEmailAddress(email))
+            {
+                $("#smail").css({
+                    "border": "1px solid #00eb7f"
+                });
+            } else {
+                $("#smail").css({
+                    "border":"1px solid #ee4d45"
+                });
+            }
+        } else {
+            $("#smail").css({
+                 "border":"1px solid #ee4d45"
+            });         
+        }
+
+    });
+
+});
+
+
+function isValidEmailAddress(emailAddress) {
+    var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+    return pattern.test(emailAddress);
+}
+
+    //close
+        $(document).ready(function () {
+            $('.registerbutton').click(function() {
+  $('.connexion').addClass('remove-section');
+    $('.enregistrer').removeClass('active-section');
+  $('.registerbutton').removeClass('active');
+  $('.Signin').addClass('active');
+});
+
+$('.Signin').click(function() {
+  $('.connexion').removeClass('remove-section');
+    $('.enregistrer').addClass('active-section');   
+  $('.registerbutton').addClass('active');
+  $('.Signin').removeClass('active');
+});
+
+        });
+        function signup() {
+            document.getElementById('title').innerText="DropLab | Sign Up"
+        }
+        function signin() {
+            document.getElementById('title').innerText="DropLab | Login"
+        }
+    </script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="namecontainer">
+            <div class="logo"><img src="images/logo-grey.svg"></div>
+            <div class="text">DropLab</div>
+
+        </div>
+        <div class="startproject">
+            <div class="sq"><img src="images/startproject.svg">
+                <h3>Start a Project</h3>
+            </div>
+        </div>
+    </nav>
+    <header id="Sheader">
+        <h1>Login/SignUp</h1>
+        <h2>Login Or Sign Up</h2>
+        <img class="tittleimg" src="images/assets/title-bg-black.svg">
+    </header>
+
+    <!--Headr close-->
+    <div id="content">
+        <div class="container">
+
+            <div class="menu">
+                <a onclick="signin()" href="#" class="Signin">
+                    <h2>SIGN IN</h2>
+                </a>
+                <a href="#" onclick="signup()" class="registerbutton active">
+                    <h2>SIGN UP</h2>
+                </a>
+            </div>
+            <div class="connexion">
+                <div class="contact-form">
+                    <label>Email</label>
+                    <input id="mail" placeholder="" type="text">
+
+                    <label>PASSWORD</label>
+                    <input id="pas" placeholder="" type="text">
+
+                    <div class="check">
+                        <label>
+                            <input id="check" type="checkbox" class="checkbox">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26px" height="23px">
+                                <path class="path-back" d="M1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
+                                <path class="path-moving" d="M24.192,3.813L11.818,16.188L1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
+                            </svg>
+                        </label>
+                        <h3>Keep me signed in</h3>
+                    </div>
+
+                    <input id="signi" class="submit" value="SIGN IN" type="submit">
+                </div>
+
+                <hr>
+                <a href="#" target="_blank">
+                    <h4>Forgot password?</h4>
+                </a>
+            </div>
+
+            <div class="enregistrer active-section">
+
+
+                <div class="contact-form">
+                    <form name="signupp" method="post" action=" ../2/index.html">
+                        <label>USERNAME</label>
+                        <input name="unmae" placeholder="" type="text" required="required">
+
+                        <label>E-MAIL</label>
+                        <input id="smail" placeholder="" name="email" type="text" required="required">
+
+                        <label>PASSWORD</label>
+                        <input placeholder="" type="password" name="pas" required="required">
+
+                        <label>CONFIRM PASSWORD</label>
+                        <input placeholder="" type="password" name="cpas" required="required">
+
+                        <div class="check">
+                            <label>
+                                <input id="check" type="checkbox" class="checkbox">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26px" height="23px">
+                                    <path class="path-back" d="M1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
+                                    <path class="path-moving" d="M24.192,3.813L11.818,16.188L1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
+                                </svg>
+                            </label>
+                            <h3>I agree</h3>
+                        </div>
+
+                        <input class="submit" value="SIGN UP" type="submit">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="bottom-nav">
+        <div class="menulist">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="bottomlogo">
+
+            <img src="images/logo-grey.svg">
+        </div>
+        <div class="getintouch">
+            <h1>GET IN TOUCH</h1>
+        </div>
+        <div class="details">
+            <div class="detailbox">
+                <img src="images/assets/asset%2042.svg">
+                <p>info@droplab.com</p>
+            </div>
+            <div class="detailbox">
+                <img src="images/assets/asset%2043.svg">
+                <p>Somewhere in Islamabad,<br> pakistan</p>
+            </div>
+            <div class="detailbox">
+                <img src="images/assets/asset%2044.svg">
+                <p>+92 333 1234567</p>
+            </div>
+        </div>
+        <div class="followus">
+            <h1>FOLLOW US</h1>
+            <ul>
+                <li><a target="_blank" href="https://facebook.com/"><img src="images/assets/asset%2017.svg" /></a></li>
+
+                <li><a target="_blank" href="https://twitter.com/"><img src="images/assets/asset%2019.svg" /></a></li>
+
+                <li><a target="_blank" href="https://behance.com/"><img src="images/assets/asset%2021.svg" /></a></li>
+
+                <li><a target="_blank" href="https://pinterest.com/"><img src="images/assets/asset%2023.svg" /></a></li>
+
+                <li><a target="_blank" href="https://instagram.com/"><img src="images/assets/asset%2024.svg" /></a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+    </div>
+    <footer>
+        <div class="image">
+            <p>Made with <span><img class="footerimg animated pulse infinite" src="images/assets/asset%2026.svg" /></span></p>
+        </div>
+        <p>© DropLab 2018. All rights reserved.</p>
+
+    </footer>
+</body>
+
+</html>

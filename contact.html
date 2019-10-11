@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DropLab | Contact</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/logo-grey.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\SAIF ULLAH KHAN\Desktop\assignments\WEB DESIGN PROJECT\css\main.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <script src="js/alertifyjs/alertify.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+</head>
+
+<body>
+    <nav>
+        <div class="namecontainer">
+            <div class="logo"><img src="images/logo-grey.svg"></div>
+            <div class="text">DropLab</div>
+
+        </div>
+        <div class="startproject">
+            <div class="sq"><img src="images/startproject.svg">
+                <a href="contact.html">Start a Project</a>
+            </div>
+        </div>
+    </nav>
+    <header id="Sheader">
+        <h1>CONTACT</h1>
+        <h2>Stay in touch</h2>
+        <img class="tittleimg" src="images/assets/title-bg-black.svg">
+    </header>
+    <section id="contact-body">
+        <div id="contact-form">
+            <h1>How can we help?</h1>
+            <p>An email or a phone call, you choose and we talk.</p>
+            <div id="form">
+                <form action="" method="=past">
+                    <h1>Full Name <span class="red"> &#42;</span></h1>
+                    <br>
+                    <input name="name" id="name1" type="text" required="required">
+                    <h1>Email Address <span class="red"> &#42;</span></h1>
+                    <br>
+                    <input name="email" id="email1" type="email" required="required">
+                    <h1>Telephone</h1>
+                    <br>
+                    <input name="telephone" type="number">
+                    <h1>Your Message <span class="red">&#42;</span></h1>
+                    <br>
+                    <textarea id="message" required="required"></textarea>
+                    <h1>Calculate 6+13 <span class="red">&#42;</span></h1><br>
+                    <input name="calculate" id="calculate" type="number" required="required">
+
+                    <br>
+                    <input class="buttonRoundLine" type="submit" value="SEND MESSAGE" id="jj">
+                </form>
+            </div>
+        </div>
+        <div id="map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="100%" height="830" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20francisco&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+            </div>
+        </div>
+    </section>
+    <div class="letswork">
+        <h1>LET'S WORK TOGETHER</h1>
+        <h2>Get in touch with us to get started</h2>
+        <img src="images/assets/asset%2040.svg">
+        <br>
+        <a href="contact.html" class="buttonRoundLine2">OK.LET'S GO!</a>
+    </div>
+
+
+    <div class="bottom-nav">
+        <div class="menulist">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="3/index.html">WORK</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="bottomlogo">
+
+            <img src="images/logo-grey.svg">
+        </div>
+        <div class="getintouch">
+            <h1>GET IN TOUCH</h1>
+        </div>
+        <div class="details">
+            <div class="detailbox">
+                <img src="images/assets/asset%2042.svg">
+                <p>info@droplab.com</p>
+            </div>
+            <div class="detailbox">
+                <img src="images/assets/asset%2043.svg">
+                <p>Somewhere in Islamabad,<br> pakistan</p>
+            </div>
+            <div class="detailbox">
+                <img src="images/assets/asset%2044.svg">
+                <p>+92 333 1234567</p>
+            </div>
+        </div>
+        <div class="followus">
+            <h1>FOLLOW US</h1>
+            <ul>
+                <li><a target="_blank" href="https://facebook.com/"><img src="images/assets/asset%2017.svg" /></a></li>
+
+                <li><a target="_blank" href="https://twitter.com/"><img src="images/assets/asset%2019.svg" /></a></li>
+
+                <li><a target="_blank" href="https://behance.com/"><img src="images/assets/asset%2021.svg" /></a></li>
+
+                <li><a target="_blank" href="https://pinterest.com/"><img src="images/assets/asset%2023.svg" /></a></li>
+
+                <li><a target="_blank" href="https://instagram.com/"><img src="images/assets/asset%2024.svg" /></a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+    </div>
+    <footer>
+        <div class="image">
+            <p>Made with <span><img class="footerimg animated pulse infinite" src="images/assets/asset%2026.svg" /></span></p>
+        </div>
+        <p>© DropLab 2018. All rights reserved.</p>
+
+    </footer>
+    <script>
+        $(document).ready(function() {
+            $("#jj").onclick(function() {
+                alert("efw");
+                var name = $("#name1").val().length;
+                var email = $("#email1").val().length;
+                var mess = $("#message").val().length;
+                var cal = $("#calculate").val();
+                cal = parseInt(cal);
+
+                if (name > 0 && email > 0 && mess > 0 && cal == 19) {
+                    alertify.alert("Message sent");
+                } else {
+                    alertify.success("Fill all fields!");
+                    alert("error");
+                }
+            });
+
+
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

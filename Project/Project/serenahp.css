@@ -1,0 +1,272 @@
+#body{
+	width: 1519px;
+	height: auto;
+}
+#banner{
+	width: 1519px;
+	height: 100px;
+	background-color: #FBF2E1;
+}
+#menu{
+	width: 1266px;
+	height: 100px;
+	float: right;
+}
+.menuitems{
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.menuitems:hover{
+	background:orange;
+	text-decoration: none;
+}
+.inmenu{
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+	margin-left: 20px;
+	float: left;
+}
+#bar{
+	width: 66px;
+	height: 100px;
+	margin-left: 20px;
+	float: left;
+	cursor: pointer;
+}
+.bar{
+	width: 54px;
+	height: 7px;
+	background-color: brown;
+	border-radius: 5px;
+	color: brown;
+	float: left;
+	margin-top: 35px;
+}
+.bar2{
+	width: 54px;
+	height: 7px;
+	background-color: brown;
+	border-radius: 5px;
+	color: brown;
+	float: left;
+	margin-top: 5px;
+}
+.bar3{
+	width: 54px;
+	height: 7px;
+	background-color: brown;
+	border-radius: 5px;
+	color: brown;
+	float: left;
+	margin-top: 5px;
+}
+.bar:hover{
+	background:orange;
+	text-decoration: none;
+}.bar2:hover{
+	background:orange;
+	text-decoration: none;
+}
+.bar3:hover{
+	background:orange;
+	text-decoration: none;
+}
+#main{
+	width: 1519px;
+	height: auto;
+}
+
+/*Slider*/
+#slider{
+	height: auto;
+	width: 1519px;
+	float: left;
+}
+#sliderbox{
+	position: relative;
+	width: 6080px;
+	animation-name: slideranimation;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+#sliderbox img{
+	width: 1519px;
+	height: 600px;
+	float: left;
+}
+#container{
+	width: 1519px;
+	overflow: hidden;
+}
+@keyframes slideranimation{
+	0%
+	{
+		left: 0px;
+	}
+	20%
+	{
+		left: 0px;
+	}
+	25%
+	{
+		left: -1519px;
+	}
+	45%
+	{
+		left: -1519px;
+	}
+	50%
+	{
+		left: -3040px;
+	}
+	70%
+	{
+		left: -3040px;
+	}
+}
+#welcome{
+	width: 1519px;
+	height: auto;
+	float: left;
+	background-color: #50423E;
+}
+#wdetail{
+	width: 1150px;
+	height: 140px;
+	float: left;
+	margin: 8px 0px 0px 200px;
+}
+@font-face{
+	font-family: myfont;
+	src:url("Fonts/Run to the Hills Personal Use.ttf");
+}
+@font-face{
+	font-family: myfont1;
+	src:url("Fonts/Crumble Regular.ttf");
+}
+@font-face{
+	font-family: myfont2;
+	src:url("Fonts/Rosalinda.ttf");
+}
+#center{
+	width: 1519px;
+	height: auto;
+	float: left;
+}
+#c1{
+	width: 800px;
+	height: 400px;
+	float: left;	
+	margin:50px 0px 0px 100px;
+}
+#c2{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin: 50px 0px 0px 50px;
+}
+#c3{
+	width: 400px;
+	height: 400px;
+	float: left;	
+	margin:50px 0px 0px 100px;
+}
+#c4{
+	width: 800px;
+	height: 400px;
+	float: left;
+	margin: 50px 0px 0px 50px;
+}
+#c5{
+	width: 800px;
+	height: 400px;
+	float: left;	
+	margin:50px 0px 0px 100px;
+}
+#c6{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin: 50px 0px 0px 50px;
+}
+.headings{
+	font-family: myfont;
+	text-align: center;
+	font-size: 40px;
+}
+.indiv{
+	font-family: myfont1;
+	font-size: 25px;
+	color: #F6871F;
+	text-align: center;
+	margin-top: 20px;
+}
+.indiv1{
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
+	padding: 40px;
+}
+ul{
+	margin-left: 25px;
+	text-align: left;
+	float: left;
+	font-family: myfont1;
+	color: #F6871F;
+	font-size: 25px;
+}
+#pic{
+	float: left;
+	margin-top: 50px;
+}
+#experiences{
+	width: 520px;
+	height: 600px;
+	float: left;
+	background-color: #50423E;
+	margin-top: 50px;
+}
+#footer{
+	width: 1519px;
+	height: auto;
+	background-color: #EEEEEE;
+	float: left;
+	margin-top: -2px;
+}
+#footer li{
+	font-family: sans-serif;
+	color: red;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 5px;
+	margin-left: 0%;
+}
+#footer li:hover{
+	background:yellow;
+	text-decoration: none;
+}
+.cdiv{
+	display: inline-block;
+	width: 344px;
+	height: 275px;
+	font-family: myfont;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%
+}
+@font-face{
+	font-family: myfont5;
+	src: url("Fonts/Medusa Story - Personal Use.otf");	
+}
+#fp{
+	color: #8e8e8e;
+	font-family: myfont5;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: right;
+}
+

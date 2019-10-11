@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header" transform="translate(-1432.000000, -12.000000)" fill-rule="nonzero" fill="#252525">
+            <g id="Phone" transform="translate(1420.000000, 0.000000)">
+                <path d="M23.3341377,21.2473777 L21.04338,23.5381355 L16.4618645,18.95662 L18.7526223,16.6658623 C19.0246193,16.3938653 19.0246193,15.9535222 18.7526223,15.6822208 L15.2743992,12.2039978 C15.0024021,11.9320007 14.5620591,11.9320007 14.2907577,12.2039978 L12,14.4947555 C12,22.1934544 17.8051543,28 25.5052445,28 L27.7960022,25.7092423 C28.0679993,25.4372452 28.0679993,24.9969022 27.7960022,24.7256008 L24.3177792,21.2473777 C24.0464778,20.9760763 23.6054391,20.9760763 23.3341377,21.2473777 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

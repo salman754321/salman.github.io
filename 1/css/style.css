@@ -1,0 +1,273 @@
+body,*{
+	margin: 0px;
+	padding: 0px;
+	font-family: ariel;
+}
+main{
+	height: auto;
+	width: 100%;
+	background-image:url("../images/body-pattern.png");
+	background-size: cover;
+	background-repeat: repeat;
+	margin: 0 auto;
+}
+#logo{
+	position: fixed;
+	height: 125px;
+	width: 115px;
+	margin: 2px 2px 2px 2px;
+	float: left;
+	margin-left: 16px;
+	background-image: url("../images/pchotels-logo.png");
+	background-size: cover;
+	z-index: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  margin-left: 150px;
+}
+
+li {
+	margin-left: 60px;
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #ac5c1d;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ac5c1d}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#menu{
+	height: 50px;
+	width: 1325px;
+	margin: 0px 5px 5px 5px;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+}
+#inmenu{
+	height: 50px;
+	width: 875px;
+	background-color: white;
+	float: left;
+	margin: 0px 5px 5px 5px;
+	margin-left: 400px;
+}
+.menuitems{
+	font-size: 20px;
+	font-weight: 14px;
+	margin: 5px 5px 5px 20px;
+	color: #4e4e50;
+	float: left;
+
+}
+.menuitems:hover{
+	background-color: silver;
+}
+.clear{
+	clear: both;
+}
+.slider{
+	height: 500px;
+	width: 100%;
+	margin-top:45px;
+	margin-bottom: 0px; 
+}
+#p1{
+	background-image: url("../images/10271144.jpg");
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+#p2{
+	background-image: url("../images/1022686-pc_-1452057729-644-640x480.jpg");
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+#p3{
+	background-image: url("../images/PCHR_Poolside_th.jpg");
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+
+#booking{
+	background: rgba(0, 0, 0, 0.2);
+	
+	height: 120px;
+	width: 800px;
+	float: right;
+	margin-right: 10px;
+	position: relative;
+	z-index: 1;
+}
+.bookingelements{
+	color: black;
+	height: 50px;
+	width: 150px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+	z-index: 1;
+	font-size: 20px;
+
+}
+button.bookingelements{
+	background-color: orange;
+}
+button.bookingelements:hover{
+	background-color: #Ac5c1d;
+}
+
+h1{
+	color: white;
+	font-size: 32px;
+	margin: 5px;
+}
+h2{
+	color: white;
+	font-size: 32px;
+	margin: 0px 20px 20px 50px;
+}
+#center{
+	height: 500px;
+	width: 94%;
+	margin: auto 10px 0px 40px ;
+	background-image: url("../images/1284436_nailv.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-top: 1px;
+	position: relative;
+	top: -27px;
+}
+#center2{height: 30px;
+	width: 20px;
+	float: left;}
+.center1{
+	height: 100%;
+	width: 50%;
+	margin-top: 40px;
+	float: left;
+}
+p{
+	margin: 50px;
+	padding: 0px;
+	font-size: 20px;
+	color: white;
+}
+#member{
+	height: 300px;
+	width: 60%;
+	margin: 0px 0px 0px 40px; 
+	background-image: url("../images/privilage-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10px;
+	float: left;
+	position: relative;
+	top: -40px;
+}
+#more{
+	height: 50px;
+	width: 80px;
+	background-color: orange;
+	color: black;
+	float: right;
+	margin-right: 40px;
+}
+#more:hover{
+	background-color: brown;
+}
+#about{
+	height: 300px;
+	width: 33%;
+	background-color: white;
+	float: left;
+	position: relative;
+	top: -40px;
+
+}
+#about>h1{
+	color: black;
+	margin:15px 0px 0px 25px;
+}
+#about>h2{
+	color: #af996f;
+	font-size: 25px;
+	margin-top: 10px; 	
+}
+#about>p{
+	color: black;
+}
+footer{
+	height: 200px;
+	width: 100%;
+	background-color: white;
+
+}
+
+#footerele{
+	height: 190px;
+	width: 90%;
+	margin: 0 auto;
+
+	
+}
+#footerele>hr{
+	color: brown;
+	margin-bottom: 5px;
+}
+.footerelem1{
+	color: black;
+	font-size: 15px;
+	margin: 0px 35px 10px 0px;
+	float: left;
+}
+.footerelem1:hover{
+	color: brown;
+}
+#footer2{
+	height: 190px;
+	width: 40%;
+	float: left;
+	margin-left: 160px;
+}
+
+

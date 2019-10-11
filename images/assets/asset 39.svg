@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="8px" viewBox="0 0 16 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Latest-News" transform="translate(-641.000000, -960.000000)" fill-rule="nonzero" fill="#252525">
+            <g id="Article" transform="translate(560.000000, 362.000000)">
+                <path d="M92,601 L82,601 C81.448,601 81,601.448 81,602 L81,602 C81,602.552 81.448,603 82,603 L92,603 L92,606 L97,602 L92,598 L92,601 Z" id="Arrow"></path>
+            </g>
+        </g>
+    </g>
+</svg>

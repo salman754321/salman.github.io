@@ -1,0 +1,271 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("Images/Nursery/pexels-photo-589840.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+#main{
+	width: 1519px;
+	height: 100px;
+}
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: #ffffff;
+	float: left;
+}
+#logo{
+	width: 180px;
+	height: 100px;
+	float: left;
+	background-image: url("Images/Nursery/tree-logo.jpg");
+	background-size: 177px 100px;
+	background-repeat: no-repeat;
+}
+@font-face{
+	font-family: myfont;
+	src:url("Fonts/VarsityTeam-Bold.otf");
+}
+@font-face{
+	font-family: myfont1;
+	src: url("Fonts/Run to the Hills Personal Use.ttf");	
+}
+@font-face{
+	font-family: myfont2;
+	src:url("Fonts/Anthemie.ttf");
+}
+@font-face{
+	font-family: myfont3;
+	src: url("Fonts/Australian Script.ttf");	
+}
+@font-face{
+	font-family: myfont4;
+	src: url("Fonts/Crumble Regular.ttf");	
+}
+@font-face{
+	font-family: myfont5;
+	src: url("Fonts/Medusa Story - Personal Use.otf");	
+}
+@font-face{
+	font-family: myfont6;
+	src: url("Fonts/Rosalinda.ttf");	
+}
+@font-face{
+	font-family: myfont7;
+	src: url("Fonts/Teddy Bears.otf");	
+}
+#inh{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: myfont;
+	color: #68d9a0;
+	margin-top: 20px;
+	padding: 0px;
+}
+#menu{
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-image: url("Images//Nursery/Screenshot_2018-12-29 Buy natural plants online at Nursery Live Largest plant nursery in India.png");
+	background-size: 1590px 50px;
+	background-repeat: no-repeat;
+}
+#slider{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+#center{
+	width: 1519px;
+	height: auto;
+	background-color: #ffffff;
+	float: left;
+	background-image: linear-gradient(#C6FFDD,#FBD786,#f7797d);
+}
+#inc{
+	width: 1435px;
+	height: auto;
+	float: left;
+	border: 10px solid black;
+	margin: 25px 0px 0px 35px;
+}
+#inc1{
+	font-size: 40px;
+	font-family: myfont;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+.boxes{
+	display: inline-block;
+	width: 716px;
+	height: 400px;
+	float: left;
+}
+.inb{
+	width: 500px;
+	height: 260px;
+	float: left;
+	margin-left: 15%;
+	margin-top: 20px;
+	border: 7px solid black;
+}
+.inboximg{
+	width: 500px;
+	height: 260px;
+}
+button{
+	border-width: 0px;
+	border-radius: 50%;
+	width: 137px;
+	height: 28px;
+	text-align: center;
+	font-family: myfont;
+	margin-left: 37%;
+	cursor: pointer;
+	font-size: 25px;
+}
+button:hover {
+  background: pink;
+  text-decoration: none;
+}
+.inb p{
+	font-family: myfont6;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: red;
+}
+#center1{
+	width: 1519px;
+	height: auto;
+	float: left;
+	margin-top: 248px;
+	background-image: linear-gradient(#ACBB78,#F7F8F8)
+}
+.boxes2{
+	display: inline-block;
+	width: 348px;
+	height: 282px;
+	float: left;
+}
+.inb2{
+	width: 242px;
+	height: 182px;
+	float: left;
+	margin-left: 15%;
+	margin-top: 20px;
+	border: 7px solid black;
+}
+.inboximg2{
+	width: 242px;
+	height: 182px;
+}
+.inb2 p{
+	font-family: myfont;
+	text-align: center;
+	font-size: 18px;
+	color: #000000;
+	cursor: pointer;
+}
+.inb2 p:hover{
+	background: red;
+  text-decoration: none;	
+}
+#center3{
+	width: 1519px;
+	height: 700px;
+	float: left;
+	background-image: url("Images/Nursery/pexels-photo-1616104.jpeg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+#footer{
+	width: 1519px;
+	height: auto;
+	float: left;
+	background-image: linear-gradient(#240b36,#c31432)
+}
+.inf{
+	display: inline-block;
+	width: 303px;
+	height: 240px;
+	float: left;
+	margin-top: 40px;
+}
+.pii{
+	color: #88e326;
+	font-size: 32px;
+	font-family: myfont4;	
+	text-align: center;
+	margin-top: 0px;
+	padding: 0px;
+}
+.pi{
+	color: #ffffff;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin: 5px 0px 0px 25px;
+	padding: 0px;
+	cursor: pointer;
+}
+.pi:hover{
+	background: #45da9d;
+  text-decoration: none;	
+}
+#email{
+	width: 1519px;
+	height: 40px;
+	float: left;
+	margin-top: 40px;
+	background-color: #ffffff;
+}
+.inemail{
+	display: inline-block;
+	width: 756px;
+	height: 40px;
+}
+.inemail p{
+	font-size: 33px;
+	font-weight: bold;
+	font-family: myfont;	
+	color: #68d9a0;
+	margin-top: 0px;
+	padding: 0px;
+	margin-left: 20px;
+}
+#btn{
+	border-width: 0px;
+	border-radius: 5%;
+	width: 107px;
+	height: 27px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: orange;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 6px;
+}
+.inemail input{
+	width: 300px;
+	height: 27px;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 20%;
+	background-color: #68d9a0;
+	border-width: 0px;
+	border-radius: 2px;
+	color: black;
+}
+#fp{
+	color: #8e8e8e;
+	font-family: myfont5;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: right;
+}

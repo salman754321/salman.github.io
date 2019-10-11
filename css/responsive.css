@@ -1,0 +1,355 @@
+/******reponsive page services screen<500px******/
+@media only screen and (max-width:500px) {
+    .logo img {
+        margin-left: 10px;
+        margin-top: 30px;
+        width: 25px;
+        float: left;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+    }
+
+    .text {
+        font-size: 30px;
+        color: #252525;
+        padding-top: 30px;
+    }
+    .startproject {
+	display: none;
+}
+    #Sheader
+    {
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        
+    }
+    #Sheader h1
+    {
+        position: relative;
+        top: 150px;
+        padding-top: 0px;
+        font-size: 36px;
+        
+    }
+    #Sheader h2
+    {
+        position: relative;
+        top: 180px;
+        text-align: center;
+        font-size: 18px;
+    }
+    #services
+    {
+        position: relative;
+        top: -100px;
+        width: 100%;
+        height: 1250px;
+        padding-bottom: 50px;
+        
+    }
+    .tittleimg {
+	position: relative;
+        top: 175px;
+}
+    article
+    {
+        width: 90%;
+        margin: 0px 10%;
+    }
+    .articleblock11 {
+	    width: 90%;
+        margin: 20px 0px;
+        height: 180px;
+        clear: both;
+        
+}
+    .articleblock11 h1 {
+	margin-top: 30px;
+        margin-left: 40px;
+        font-size: 20px;
+}
+    .articleblockimg {
+        
+        height: 6px;
+        margin-top: 5px;
+        margin-left: -15px;
+        
+}
+    
+    .articleblock11 p {
+       font-size: 16px;	 
+        padding-bottom: 0px;
+        width: 80%;
+        margin: 0px 10%;
+        height: 50px;
+        overflow: hidden;
+        clear: both;
+        float: left;
+}
+    .articleblock11 a {
+	margin: 0px 10%;
+        width: 80%
+            
+}
+    .readmore {
+	font-size: 16px;
+    clear: both;
+    float: none;
+    width: 80%;
+    margin: 10px 10%;
+    
+        
+        
+}
+    .readmoreArrow {
+	margin-top: 0px;
+        display: none;
+}
+    .letswork {
+	position: relative;
+    top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+        
+}
+    .letswork h1{
+	
+        position: relative;
+        top: 30px;
+        padding-top: 0px;
+        margin-top: 0px;
+        font-size: 28px;
+}
+    .letswork h2{
+	font-size: 16px;
+        margin-bottom: 0px;
+        position: relative;
+        top: 20px;
+}
+    .letswork img{
+	width: 50px;
+        margin-bottom: 0px;
+        position: relative;
+        top: 15px;
+        
+}
+    .buttonRoundLine2 {
+	padding: 5px 15px;
+        font-size: 14px;
+        position: relative;
+        top: 25px;
+}
+    
+    .menulist a {
+	display: block;
+        margin: 20px 0px;
+}
+    .detailbox {
+	width: 100%;
+        margin: 10px 0px;
+        
+}
+    .details {
+	width: 90%;
+        margin: 0px auto;
+}   
+    
+}
+/*********responsive servvice page 501<width<1200********/
+@media screen and (min-width:501px) and (max-width:1200px)
+{
+    .logo img {
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 35px;
+        float: left;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+    }
+
+    .text {
+        font-size: 36px;
+        color: #252525;
+        padding-top: 30px;
+    }
+    .startproject {
+	
+}
+    .sq a
+    {
+        position: absolute;
+        
+    }
+    #Sheader
+    {
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        
+    }
+    #Sheader h1
+    {
+        position: relative;
+        top: 150px;
+        padding-top: 0px;
+        font-size: 36px;
+        
+    }
+    #Sheader h2
+    {
+        position: relative;
+        top: 180px;
+        text-align: center;
+        font-size: 18px;
+    }
+    #services
+    {
+        position: relative;
+        top: -100px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+        
+    }
+    .tittleimg {
+	position: relative;
+        top: 175px;
+}
+    article
+    {
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .articleblock11 {
+	    width: 48%;
+        margin: 10px 1%;
+        height: 180px;
+        
+        float: left;
+        
+}
+    .articleblock11 h1 {
+	margin-top: 30px;
+        margin-left: 10%;
+        font-size: 20px;
+}
+    .articleblockimg {
+        
+        height: 6px;
+        margin-top: 5px;
+        margin-left: 0%;
+        
+}
+    
+    .articleblock11 p {
+       font-size: 16px;	 
+        padding-bottom: 0px;
+        width: 80%;
+        margin: 0px 10%;
+        margin-top: 10px;
+        height: 50px;
+        overflow: hidden;
+        
+        
+}
+    .articleblock11 a {
+	margin: 0px 10%;
+        width: 80%
+            
+}
+    .readmore {
+	font-size: 16px;
+    clear: both;
+    float: none;
+    width: 80%;
+    margin: 10px 10%;
+    
+        
+        
+}
+    .readmoreArrow {
+     display: none;
+}
+    .letswork {
+	position: relative;
+    top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+        
+}
+    .letswork h1{
+	
+        position: relative;
+        top: 30px;
+        padding-top: 0px;
+        margin-top: 0px;
+        font-size: 28px;
+}
+    .letswork h2{
+	font-size: 16px;
+        margin-bottom: 0px;
+        position: relative;
+        top: 20px;
+}
+    .letswork img{
+	width: 50px;
+        margin-bottom: 0px;
+        position: relative;
+        top: 15px;
+        
+}
+    .buttonRoundLine2 {
+	padding: 10px 25px;
+        font-size: 18px;
+        position: relative;
+        top: 35px;
+}
+    
+    .menulist a {
+	display: inline;
+        margin: 20px 30px;
+}
+    .detailbox {
+	width: 33.333%;
+        margin: 10px 0px;
+        
+}
+    .details {
+	width: 90%;
+        margin: 0px auto;
+}   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
